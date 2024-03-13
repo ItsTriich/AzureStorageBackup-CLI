@@ -22,6 +22,12 @@
 
 1. [Terminal]  Using the cd command, navigate to the location of backup.sh, then run the script by entering ./backup.sh into the terminal.
 
+## Usage
+
+1. It ensures that the destination storage container exists.
+2. It copies all blobs from the source container to the destination container
+3. It checks the status of the copy operation and waits until all copies are completed.
+
 ## Contributing
 
 Feel free to open up an issue or reach out to me with.
