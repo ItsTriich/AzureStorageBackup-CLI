@@ -1,10 +1,27 @@
 <div align="center">
   <h1 align="center"> Azure Storage Backup CLI</h1>
-  <p>  </p>
+  <p>This script uses Azure CLI to interact with Azure Storage and performs backup by copying blobs from one storage account to another.  </p>
 </div>
 
 ## Prerequisites
 
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+- [Azure Storage Account]
+- [SAS Token]
+
 ## How to setup
 
+1. Clone the code.
+2. Move into the directory.
+3. Replace the variables's values like [source_storage_account_name], [source_container_name], [source_sas_token], [destination_storage_account_name], [destination_container_name], [and destination_sas_token] with your actual Azure Storage account and container details.
+
 ## How to use
+
+1. [Terminal]  Using the cd command, navigate to the location of backup.sh, then run the script by entering ./backup.sh into the terminal.
+
+## Contributing
+
+Feel free to open up an issue or reach out to me with.
+
+- **Travis Gray**: [Linkedin](https://linkedin.com/in/tg12)
+
