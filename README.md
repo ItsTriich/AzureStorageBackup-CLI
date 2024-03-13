@@ -1,7 +1,10 @@
 <div align="center">
   <h1 align="center"> Azure Storage Backup CLI</h1>
   <p>This script uses Azure CLI to interact with Azure Storage and performs backup by copying blobs from one storage account to another.  </p>
+     <img src="https://github.com/ItsTriich/AzureStorageBackup-CLI/blob/e4083c1bf065b84347bd1e2dc9dfbebeb9a02d98/backup.sh%20image.png"/>
+     
 </div>
+
 
 ## Prerequisites
 
